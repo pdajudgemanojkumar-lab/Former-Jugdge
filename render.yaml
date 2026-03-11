@@ -1,1 +1,5 @@
-
+services:
+  - type: static
+    name: judge-web
+    env: static
+    publishDir: .
