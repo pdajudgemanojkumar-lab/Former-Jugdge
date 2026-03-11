@@ -1,5 +1,6 @@
 services:
-  - type: static
-    name: judge-web
+  - type: web
+    name: Former-judge-web
     env: static
-    publishDir: .
+    buildCommand: ""
+    startCommand: ""
